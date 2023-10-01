@@ -1,0 +1,24 @@
+.link-effect:hover{
+    background: #565656;
+    border-radius: 5px;
+    text-decoration: underline;
+    transform: scale(1.05);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    margin: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.img-bg{
+    background: url('./assets/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.text-shadow-dark{
+    text-shadow:2px 2px #4c4b4b;
+}
