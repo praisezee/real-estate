@@ -22,3 +22,16 @@
 .text-shadow-dark{
     text-shadow:2px 2px #4c4b4b;
 }
+
+.h-screen{
+    min-height: 100dvh;
+}
+
+/* .relative{
+    position:relative;
+} */
+
+.absolute{
+    translate: -25px 25px ;
+    box-shadow: 2px 2px 25px #bcbbbb;
+}
