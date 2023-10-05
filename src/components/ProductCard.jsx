@@ -7,8 +7,8 @@ import { BsDot } from "react-icons/bs"
 const ProductCard = ({img}) => {
   return (
     <Col xs={10} md={6} lg={4} xxl={3} className="mx-auto">
-      <Card className="bg-black text-light shadow">
-        <Card.Img src={img} height={200}/>
+      <Card className="bg-black text-light shadow rounded-5">
+        <Card.Img src={img} height={200} className="rounded-5 shadow-img"/>
         <CardBody>
           <CardTitle className="text-capitalize fw-bold">The Most Luaxarious House</CardTitle>
           <CardText>
