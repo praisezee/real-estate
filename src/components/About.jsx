@@ -51,11 +51,11 @@ const About = () => {
             <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa consequuntur, ex excepturi beatae quia assumenda. Nobis repudiandae excepturi error omnis quo perspiciatis voluptatibus officiis iusto libero, unde dolores dolor?</p>
             <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa consequuntur, ex excepturi beatae quia assumenda. Nobis repudiandae excepturi error omnis quo perspiciatis voluptatibus officiis iusto libero, unde dolores dolor?</p>
             <div className="list-group">
-              <p><BsArrowRight/> <span>A building with only one room and typically a steep pointy roof</span></p>
-              <p><BsArrowRight/> <span>A building with only one room and typically a steep pointy roof</span></p>
-              <p><BsArrowRight/> <span>A building with only one room and typically a steep pointy roof</span></p>
-              <p><BsArrowRight/> <span>A building with only one room and typically a steep pointy roof</span></p>
-              <p><BsArrowRight/> <span>A building with only one room and typically a steep pointy roof</span></p>
+              <p><BsArrowRight className="text-warning me-3"/> <span>A building with only one room and typically a steep pointy roof</span></p>
+              <p><BsArrowRight className="text-warning me-3"/> <span>A building with only one room and typically a steep pointy roof</span></p>
+              <p><BsArrowRight className="text-warning me-3"/> <span>A building with only one room and typically a steep pointy roof</span></p>
+              <p><BsArrowRight className="text-warning me-3"/> <span>A building with only one room and typically a steep pointy roof</span></p>
+              <p><BsArrowRight className="text-warning me-3"/> <span>A building with only one room and typically a steep pointy roof</span></p>
             </div>
             <Link className="btn btn-warning mt-4">View More</Link>
           </Col>

@@ -4,7 +4,7 @@ import { FaCrown, FaFaceSmile, FaHouse, FaTrophy } from 'react-icons/fa6'
 
 const Cards = ({icons, title, text}) =>{
   return(
-    <div className="text-center border rounded py-4 text-warning">
+    <div className="text-center border rounded py-4 text-warning custom-shadow bg-black">
       <p>{icons}</p>
       <p className="h3 fw-bold text-light">{title}</p>
       <p className="text-secondary">{text}</p>
