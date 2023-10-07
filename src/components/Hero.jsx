@@ -6,9 +6,9 @@ import { BsHouseFill } from 'react-icons/bs'
 const Hero = () => {
   const [option,setOption] = useState('sell')
   return (
-    <div className="img-bg vh-100 ">
-      <div className="bg-black bg-opacity-50 h-100 pt-3">
-        <Container className='h-100 align-items-center'>
+    <div className="img-bg vh-100">
+      <div className="bg-black bg-opacity-50 h-100 pt-5">
+        <Container className='h-100 align-items-center py-5'>
           <Row className='w-100 p-1 h-75 rounded rounded-4 mx-auto border border-5 border-danger'>
             <Col xs={10} lg={6} className='mx-auto my-auto'>
               <Badge className='bg-secondary'>A vision of your life</Badge>
@@ -31,35 +31,35 @@ const Hero = () => {
             <p className='text-capitalize h3 text-light'><span className='text-warning text-decoration-underline'>property</span> types
             </p>
             <Col className='text-white text-center'>
-              <div className="rounded-circle w-75 mx-auto bg-gradient bg-warning bg-opacity-75 py-4">
+              <div className="rounded-circle mx-auto bg-gradient bg-warning bg-opacity-75 py-4 w-50 h50">
                 <FaHome className='display-6 w-100'/>
               </div>
               <p className='h6 text-capitalize mb-0 mt-2'>private house</p>
               <Badge className='bg-secondary text-capitalize'>360 listing</Badge>
             </Col>
             <Col className='text-white text-center'>
-              <div className="rounded-circle w-75 mx-auto bg-gradient bg-warning bg-opacity-75 py-4">
+              <div className="rounded-circle mx-auto bg-gradient bg-warning bg-opacity-75 py-4 w-50 h50">
                 <FaBuilding className='display-6 w-100'/>
               </div>
               <p className='h6 text-capitalize mb-0 mt-2'>Apartment</p>
               <Badge className='bg-secondary text-capitalize'>360 listing</Badge>
             </Col>
             <Col className='text-white text-center'>
-              <div className="rounded-circle w-75 mx-auto bg-gradient bg-warning bg-opacity-75 py-4">
+              <div className="rounded-circle mx-auto bg-gradient bg-warning bg-opacity-75 py-4 w-50 h50">
                 <FaHotel className='display-6 w-100'/>
               </div>
               <p className='h6 text-capitalize mb-0 mt-2'>Exclusive Hotel</p>
               <Badge className='bg-secondary text-capitalize'>360 listing</Badge>
             </Col>
             <Col className='text-white text-center'>
-              <div className="rounded-circle w-75 mx-auto bg-gradient bg-warning bg-opacity-75 py-4">
+              <div className="rounded-circle mx-auto bg-gradient bg-warning bg-opacity-75 py-4 w-50 h50">
                 <BsHouseFill className='display-6 w-100'/>
               </div>
               <p className='h6 text-capitalize mb-0 mt-2'>private room</p>
               <Badge className='bg-secondary text-capitalize'>360 listing</Badge>
             </Col>
             <Col className='text-white text-center'>
-              <div className="rounded-circle w-75 mx-auto bg-gradient bg-warning bg-opacity-75 py-4">
+              <div className="rounded-circle mx-auto bg-gradient bg-warning bg-opacity-75 py-4 w-50 h50">
                 <FaWarehouse className='display-6 w-100'/>
               </div>
               <p className='h6 text-capitalize mb-0 mt-2'>warehouse</p>

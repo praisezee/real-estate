@@ -11,6 +11,18 @@
     transition: all ease-in-out 0.5s;
 }
 
+.end-80{
+    right: 80%;
+}
+
+.h50{
+    height: fit-content !important;
+}
+
+.bottom-85{
+    bottom: 85%;
+}
+
 .img-bg{
     background: url('./assets/hero.jpg');
     background-position: center;
@@ -25,6 +37,15 @@
 
 .h-screen{
     min-height: 100dvh;
+}
+
+
+.w-10{
+    width: 10%;
+}
+
+.w-15{
+    width: 15%;
 }
 
 /* .relative{
