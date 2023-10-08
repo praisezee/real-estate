@@ -15,6 +15,16 @@
     right: 80%;
 }
 
+.w-65{
+    width: 65% !important;
+}
+
+.img-world{
+    background: url('./assets/world.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .h50{
     height: fit-content !important;
 }
