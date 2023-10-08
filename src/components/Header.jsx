@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-  <Navbar expand="lg" bg='transparent' variant='dark' fixed='top' className='px-3' collapseOnSelect>
+  <Navbar expand="lg" bg='black' variant='dark' fixed='top' className='px-3' collapseOnSelect>
     <Container fluid>
       <Navbar.Brand href="/" className='h2 text-uppercase'>apus estate</Navbar.Brand>
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />
